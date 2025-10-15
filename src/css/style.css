@@ -240,6 +240,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 5px;
 }
 
 .mission-text h6 {
@@ -262,11 +263,12 @@ p {
 }
 
 .mission-image {
-  display: flex;
+  display: relative;
   flex-direction: column;         
   gap: 20px;                      
   flex: 0 0 auto;
-  max-width: 200px;               
+  max-width: 200px;  
+
 }
 
 .mission-image img {
@@ -282,12 +284,4 @@ p {
     justify-content: center;
     max-width: 100%;
     gap: 15px;
-  }
-
-  .mission-image img {
-    max-width: 120px;
-  }
-
-  .mission-text {
-    width: 100%;
   }
