@@ -2,13 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   color: #fff;
   background-color: white;
-
 }
 
 .allsection {
@@ -17,13 +16,13 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 1000px;
   margin-top: 10px;
-  margin: auto;    
+  margin: auto;
   padding-top: 10px;
   float: inline-start;
 }
 
 .navbar {
- width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +49,7 @@ body {
 }
 
 nav ul {
-    display: flex;
+  display: flex;
   gap: 30px;
   list-style: none;
 }
@@ -74,12 +73,12 @@ nav a {
 .hero {
   position: relative;
   max-width: 100%;
-  height: 600px; 
-  background-size: cover; 
+  height: 600px;
+  background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: left; 
-  align-items: center; 
+  justify-content: left;
+  align-items: center;
   text-align: center;
   color: white;
 }
@@ -87,24 +86,24 @@ nav a {
 .hero-text {
   position: relative;
   max-width: 800px;
-    z-index: 2;
-    width: 500px;
+  z-index: 2;
+  width: 500px;
 }
 
 h1 {
-    color: black;
+  color: black;
   font-size: 48px;
   margin: 20px 0;
 }
 
 h4 {
-    color: blue;
+  color: blue;
   font-size: 20px;
   letter-spacing: 2px;
 }
 
 p {
-    color: black;
+  color: black;
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 30px;
@@ -124,57 +123,61 @@ p {
   left: 0;
   max-width: 100%;
   height: 100%;
-  object-fit: cover;  
-  z-index: 1;         
+  object-fit: cover;
+  z-index: 1;
 }
 
-.about{
+.about {
   width: 100%;
   height: 400px;
-  padding: 100px 0  20px;
+  padding: 100px 0 20px;
   margin-top: 15px;
   text-align: center;
   background-color: #f9f9f9;
   color: black;
   z-index: 3;
-  display: flex;               
-  align-items: center;         
-  justify-content: space-between; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.about h6{
+.about h6 {
   font-size: 25px;
   margin-bottom: 20px;
   text-align: left;
   color: blue;
+  text-align: left;
 }
 
-.about p{
+.about h2 {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+.about p {
   font-size: 10px;
   margin-bottom: 20px;
   margin-top: 5px;
-  text-align: left;
+  text-align: center;
   color: black;
   flex: 1;
+  width: 300px;
 }
 
 .about-text {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-
-.about-image img{
+.about-image img {
   width: 400px;
   height: auto;
-  width: 100%;       
-  max-width: 100%;   
-  height: auto;      
+  height: auto;
   display: block;
-  flex: 1; 
+  flex: 1;
 }
 
 .btn-watch-video {
@@ -208,27 +211,28 @@ p {
 }
 
 .team-image {
-  display: flex;                   
-  justify-content: space-between;  
-  align-items: center;             
-  gap: 20px;                       
-  flex-wrap: nowrap;              
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
   width: 100%;
-  max-width: 1200px;               
-  margin: 0 auto;                  
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 100px;
 }
 
 .team-image img {
-  flex: 1;                         
-  max-width: 180px;                
+  flex: 1;
+  max-width: 180px;
   height: auto;
   display: block;
 }
 
 .mission {
-  display: flex;                  
-  align-items: flex-start;        
-  gap: 40px;                      
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
   padding: 50px;
   background-color: #f9f9f9;
   width: 100%;
@@ -236,7 +240,7 @@ p {
 }
 
 .mission-text {
-  flex: 1;                       
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -245,7 +249,7 @@ p {
 
 .mission-text h6 {
   font-size: 20px;
-  color: #3b82f6;                 
+  color: #3b82f6;
   margin: 0;
   text-transform: uppercase;
   text-align: left;
@@ -266,17 +270,17 @@ p {
   text-align: center;
 }
 
- .mission-image {
+.mission-image {
   display: flex;
-  flex-direction: column;        
-  gap: 20px;                      
+  flex-direction: column;
+  gap: 20px;
   flex: 0 0 auto;
-  max-width: 200px;              
+  max-width: 200px;
 }
 
 .mission-image img {
-  width: 100%;                    
+  width: 100%;
   height: auto;
   display: block;
-  border-radius: 50px;            
+  border-radius: 50px;
 }
