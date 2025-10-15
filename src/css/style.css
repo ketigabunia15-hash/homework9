@@ -137,9 +137,9 @@ p {
   background-color: #f9f9f9;
   color: black;
   z-index: 3;
-  display: flex;               /* გამოიყენება ფლექსბოქსი */
-  align-items: center;         /* ცენტრირება ვერტიკალურად */
-  justify-content: space-between; /* დაშორება ორივე მხარეს */
+  display: flex;               
+  align-items: center;         
+  justify-content: space-between; 
 }
 
 .about h6{
@@ -170,9 +170,9 @@ p {
 .about-image img{
   width: 400px;
   height: auto;
-  width: 100%;       /* ფოტო კონტეინერის სიგანეს დაიკავებს */
-  max-width: 100%;   /* არ გადაუვლის კონტეინერს */
-  height: auto;      /* შეინარჩუნებს თანაფარდობას */
+  width: 100%;       
+  max-width: 100%;   
+  height: auto;      
   display: block;
   flex: 1; 
 }
@@ -189,7 +189,7 @@ p {
 .team {
   width: 100%;
   padding: 50px;
-  background-color: #f9f9f9;
+  background-color: white;
   text-align: center;
 }
 
