@@ -207,21 +207,89 @@ p {
   font-style: oblique;
 }
 
-/* ფოტოები ერთ ხაზზე */
 .team-image {
-  display: flex;                   /* Flexbox */
-  justify-content: space-between;  /* შორის სივრცის თანაბარი განაწილება */
-  align-items: center;             /* ვერტიკალურად ცენტრში */
-  gap: 20px;                       /* ფოტოების შორის მცირე სივრცე */
-  flex-wrap: nowrap;               /* არასოდეს გადავა მეორე ხაზზე */
+  display: flex;                   
+  justify-content: space-between;  
+  align-items: center;             
+  gap: 20px;                       
+  flex-wrap: nowrap;              
   width: 100%;
-  max-width: 1200px;               /* სექციის მაქსიმალური სიგანე */
-  margin: 0 auto;                  /* ცენტრში განთავსება */
+  max-width: 1200px;               
+  margin: 0 auto;                  
 }
 
 .team-image img {
-  flex: 1;                         /* თითო ფოტო თანაბრად დაიკავებს ადგილს */
-  max-width: 180px;                 /* მაქსიმალური ზომა */
+  flex: 1;                         
+  max-width: 180px;                
   height: auto;
   display: block;
 }
+
+.mission {
+  display: flex;                  
+  align-items: flex-start;        
+  gap: 40px;                      
+  padding: 50px;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.mission-image {
+  display: flex;
+  flex-direction: column;         
+  gap: 20px;                      
+  flex: 0 0 auto;
+  max-width: 200px;               
+}
+
+.mission-image img {
+  width: 100%;                  
+  height: auto;
+  display: block;
+  border-radius: 10px;           
+}
+
+
+.mission-text {
+  flex: 1;                       
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mission-text h6 {
+  font-size: 16px;
+  color: #3b82f6;                 
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.mission-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mission-text p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+  .mission-image {
+    flex-direction: row;           
+    flex-wrap: wrap;              
+    justify-content: center;
+    max-width: 100%;
+    gap: 15px;
+  }
+
+  .mission-image img {
+    max-width: 120px;
+  }
+
+  .mission-text {
+    width: 100%;
+  }
